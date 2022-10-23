@@ -1,5 +1,5 @@
 # Binary_overlading
-a program to include all possible binary operator overloading using friend function.
+A program to include all possible binary operator overloading using friend function.
 
 #include<iostream>
 #include<conio.h>
