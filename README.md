@@ -22,16 +22,6 @@ class Distance
 };
 Distance operator+(Distance& d11,Distance& d22)
 {
-	Distance d33;
-	d33.feet=d11.feet+d22.feet;
-	d33.inch=d11.inch+d22.inch;
-	return d33;
-}
-int main()
-{
-	Distance d11(8,9);
-	Distance d22(10,2);
-	Distance d33;
-	d33=d11+d22;
+
 	cout<<"\nTotal Feet & Inches: "<<d33.feet<<" ' "<<d33.inch;
 
