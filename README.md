@@ -14,13 +14,7 @@ class Distance
 			this->inch=0;
 		}
 		Distance(int f,int i)
-		{
-			this->feet=f;
-			this->inch=i;
-		}
-		friend Distance operator+(Distance&, Distance&);
-};
-Distance operator+(Distance& d11,Distance& d22)
+		
 {
 
 
