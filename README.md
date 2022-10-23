@@ -10,11 +10,6 @@ class Distance
 		int feet,inch;
 		Distance()
 		{
-			this->feet=0;
-			this->inch=0;
-		}
-		Distance(int f,int i)
-		
-{
+
 
 
