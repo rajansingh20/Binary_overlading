@@ -30,8 +30,7 @@ Distance operator+(Distance& d11,Distance& d22)
 int main()
 {
 	Distance d11(8,9);
-	Distance d22(10,2);
-	Distance d33;
+	
 	d33=d11+d22;
 	cout<<"\nTotal Feet & Inches: "<<d33.feet<<" ' "<<d33.inch;
 
