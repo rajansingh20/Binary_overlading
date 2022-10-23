@@ -28,5 +28,3 @@ Distance operator+(Distance& d11,Distance& d22)
 	return d33;
 }
 
-	cout<<"\nTotal Feet & Inches: "<<d33.feet<<" ' "<<d33.inch;
-
