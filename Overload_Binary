@@ -1,1 +1,25 @@
-#include<iostream> #include<conio.h> #iclude<math.h> #include<string.h> using namespace std; class Distance { public: int feet,inch; Distance() { this->feet=0; this->inch=0; } Distance(int f,int i) { this->feet=f; this->inch=i; } friend Distance operator+(Distance&, Distance&); }; Distance operator+(Distance& d11,Distance& d22) { Distance d33; d33.feet=d11.feet+d22.feet; d33.inch=d11.inch+d22.inch; return d33; } int main() { Distance d11(8,9); Distance d22(10,2); Distance d33; d33=d11+d22; cout<<"\nTotal Feet & Inches: "<<d33.feet<<" ' "<<d33.inch; getch() ; }
+#include<iostream>
+#include<conio.h>
+#iclude<math.h>
+#include<string.h> 
+using namespace std;
+class Distance
+{ public:
+int feet,inch;
+Distance()
+{ this->feet=0; this->inch=0; } 
+Distance(int f,int i) 
+{ this->feet=f; this->inch=i; } 
+friend Distance operator+(Distance&, Distance&); 
+}; 
+Distance operator+(Distance& d11,Distance& d22) 
+{ Distance d33; 
+d33.feet=d11.feet+d22.feet; 
+d33.inch=d11.inch+d22.inch; return d33; 
+} 
+int main() 
+{ Distance d11(8,9);
+Distance d22(10,2);
+Distance d33; d33=d11+d22; 
+cout<<"\nTotal Feet & Inches= "<<d33.feet<<" ' "<<d33.inch; 
+return 0; }
