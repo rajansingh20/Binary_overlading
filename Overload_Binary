@@ -1,7 +1,8 @@
 #include<iostream>
 #include<conio.h>
 #iclude<math.h>
-#include<string.h> 
+#include<string.h>
+#include<format>
 using namespace std;
 class Distance
 { public:
