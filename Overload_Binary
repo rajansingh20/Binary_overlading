@@ -3,6 +3,7 @@
 #iclude<math.h>
 #include<string.h>
 #include<format>
+#include<algorithm>
 using namespace std;
 class Distance
 { public:
